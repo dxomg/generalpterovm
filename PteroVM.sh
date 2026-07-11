@@ -33,7 +33,10 @@ fi
 
 if [ ! -e $ROOTFS_DIR/.installed ]; then
 echo "#######################################################################################"
-echo "#"
+echo "0) Debian Trixie"
+echo "1) Ubuntu Questing"
+echo "2) Alpine v3.24"
+echo "Enter OS (0-3):"
 read -p "Enter OS (0-3): " input
 
 case $input in
